@@ -1,0 +1,15 @@
+{
+  // Ignore unknown at-rules like @tailwind/@apply in the built-in CSS linter
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+
+  // Helpful Tailwind extension settings (if installed)
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "typescriptreact": "typescriptreact",
+    "plaintext": "html"
+  },
+  "tailwindCSS.emmetCompletions": true
+}
